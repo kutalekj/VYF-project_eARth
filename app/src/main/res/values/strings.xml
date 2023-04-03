@@ -3,4 +3,6 @@
     <string name="hello">Hello!</string>
     <string name="get_location">GET LOCATION</string>
     <string name="your_location_is">Your location is:</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
 </resources>

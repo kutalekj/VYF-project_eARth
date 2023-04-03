@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="42sp"
-        tools:text="Latitude">
+        android:textColor="@color/black"
+        android:text="@string/latitude">
     </TextView>
 
     <TextView
@@ -31,7 +32,8 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="42sp"
-        tools:text="Longitude">
+        android:textColor="@color/black"
+        android:text="@string/longitude">
     </TextView>
 
 
