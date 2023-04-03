@@ -6,17 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/fit_bg"
-    tools:context=".MainActivity">
+    android:background="@drawable/fit_bg2"
+    tools:context=".PhotoActivity">
 
     <Button
-        android:id="@+id/btn_get_location"
-        android:layout_width="match_parent"
+        android:id="@+id/btn_capture"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="32dp"
-        android:text="@string/get_location"
-        android:textSize="28sp"
-        android:padding="16sp">
+        android:text="@string/capture"
+        android:layout_marginTop="264dp"
+        android:textSize="48sp">
     </Button>
 
 </LinearLayout>

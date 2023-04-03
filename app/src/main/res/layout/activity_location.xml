@@ -6,14 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/fit_bg3"
     tools:context=".LocationActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="312dp"
+        android:layout_marginHorizontal="84dp"
+        android:rotation="-12"
         android:text="@string/your_location_is"
         android:textAlignment="center"
-        android:textSize="32sp">
+        android:textSize="24sp"
+        android:background="@color/white">
     </TextView>
 
     <TextView
@@ -23,7 +28,9 @@
         android:textAlignment="center"
         android:textSize="42sp"
         android:textColor="@color/black"
-        android:text="@string/latitude">
+        android:text="@string/latitude"
+        android:padding="6dp"
+        android:textStyle="bold">
     </TextView>
 
     <TextView
@@ -33,8 +40,20 @@
         android:textAlignment="center"
         android:textSize="42sp"
         android:textColor="@color/black"
-        android:text="@string/longitude">
+        android:text="@string/longitude"
+        android:padding="6dp"
+        android:textStyle="bold">
     </TextView>
+
+    <Button
+        android:id="@+id/btn_goto_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="@string/goto_camera"
+        android:textSize="20sp">
+    </Button>
 
 
 </LinearLayout>

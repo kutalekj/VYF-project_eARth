@@ -8,6 +8,8 @@ import android.location.LocationManager
 import android.os.Bundle
 import android.Manifest
 import android.annotation.SuppressLint
+import android.content.Intent
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -20,6 +22,15 @@ class LocationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_location)
+
+        val btnGotoCamera : Button = findViewById(R.id.btn_goto_camera)
+        btnGotoCamera.setOnClickListener {
+            // Move from this activity to the "Photo" activity
+            val intent = Intent(this, PhotoActivity::class.java)
+
+            startActivity(intent)
+            finish()
+        }
 
         val tvLatitude : TextView = findViewById(R.id.tv_latitude)
         val tvLongitude : TextView = findViewById(R.id.tv_longitude)
