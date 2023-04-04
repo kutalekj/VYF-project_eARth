@@ -7,4 +7,5 @@
     <string name="longitude">Searching…</string>
     <string name="goto_camera">Open Camera</string>
     <string name="capture">Capture</string>
+    <string name="decription">decription</string>
 </resources>
